@@ -27,7 +27,7 @@ class TaskValidator extends Base
             new Validators\Integer('column_id', t('This value must be an integer')),
             new Validators\Integer('owner_id', t('This value must be an integer')),
             new Validators\Integer('creator_id', t('This value must be an integer')),
-            new Validators\Integer('score', t('This value must be an integer')),
+            new Validators\Numeric('score', t('This value must be numeric')),
             new Validators\Integer('category_id', t('This value must be an integer')),
             new Validators\Integer('swimlane_id', t('This value must be an integer')),
             new Validators\Integer('recurrence_child', t('This value must be an integer')),
