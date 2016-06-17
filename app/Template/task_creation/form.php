@@ -71,7 +71,7 @@
         <?= $this->form->select('column_id', $columns_list, $values, $errors, array('tabindex="6"')) ?><br/>
 
         <?= $this->form->label(t('Complexity'), 'score') ?>
-        <?= $this->form->number('score', $values, $errors, array('tabindex="8"')) ?><br/>
+        <?= $this->form->numeric('score', $values, $errors, array('tabindex="8"')) ?><br/>
 
         <?= $this->form->label(t('Original estimate'), 'time_estimated') ?>
         <?= $this->form->numeric('time_estimated', $values, $errors, array('tabindex="9"')) ?> <?= t('hours') ?><br/>
