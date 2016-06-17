@@ -45,7 +45,7 @@
         <?php endif ?>
 
         <?= $this->form->label(t('Complexity'), 'score') ?>
-        <?= $this->form->number('score', $values, $errors, array('tabindex="6"')) ?><br/>
+        <?= $this->form->numeric('score', $values, $errors, array('tabindex="6"')) ?><br/>
 
         <?= $this->form->label(t('Start Date'), 'date_started') ?>
         <?= $this->form->text('date_started', $values, $errors, array('placeholder="'.$this->text->in($date_format, $date_formats).'"', 'tabindex="7"'), 'form-date') ?>
