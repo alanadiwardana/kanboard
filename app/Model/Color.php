@@ -24,7 +24,7 @@ class Color extends Base
         ),
         'blue' => array(
             'name' => 'Blue',
-            'background' => 'rgb(219, 235, 255)',
+            'background' => 'rgb(255, 178, 102)',
             'border' => 'rgb(168, 207, 255)',
         ),
         'green' => array(
@@ -34,17 +34,17 @@ class Color extends Base
         ),
         'purple' => array(
             'name' => 'Purple',
-            'background' => 'rgb(223, 176, 255)',
+            'background' => 'rgb(255, 255, 102)',
             'border' => 'rgb(205, 133, 254)',
         ),
         'red' => array(
             'name' => 'Red',
-            'background' => 'rgb(255, 187, 187)',
+            'background' => 'rgb(255, 140, 102)',
             'border' => 'rgb(255, 151, 151)',
         ),
         'orange' => array(
             'name' => 'Orange',
-            'background' => 'rgb(255, 215, 179)',
+            'background' => 'rgb(255, 216, 102)',
             'border' => 'rgb(255, 172, 98)',
         ),
         'grey' => array(
@@ -59,7 +59,7 @@ class Color extends Base
         ),
         'deep_orange' => array(
             'name' => 'Deep Orange',
-            'background' => '#ffab91',
+            'background' => 'rgb(255, 102, 102)',
             'border' => '#e64a19',
         ),
         'dark_grey' => array(
@@ -69,7 +69,7 @@ class Color extends Base
         ),
         'pink' => array(
             'name' => 'Pink',
-            'background' => '#f48fb1',
+            'background' => 'rgb(255, 64, 64)',
             'border' => '#d81b60',
         ),
         'teal' => array(
